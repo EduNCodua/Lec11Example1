@@ -16,7 +16,7 @@ import java.util.Random;
  * Created by admin on 20.12.2016.
  */
 @WebServlet(name = "ImageServlet", urlPatterns = "/image")
-public class ImageServletImpl extends HttpServlet {
+public class ImageServlet extends HttpServlet {
 
     protected void generateImage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("image/png");

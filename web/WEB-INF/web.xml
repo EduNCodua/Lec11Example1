@@ -5,4 +5,24 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
            version="3.1">
 
+    <!--<servlet>-->
+        <!--<servlet-name>StartServlet</servlet-name>-->
+        <!--<servlet-class>servlet.StartServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet>-->
+        <!--<servlet-name>ImageServlet</servlet-name>-->
+        <!--<servlet-class>servlet.ImageServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>StartServlet</servlet-name>-->
+        <!--<url-pattern>/StartPage</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>ImageServlet</servlet-name>-->
+        <!--<url-pattern>/image</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--&lt;!&ndash;<welcome-file-list>&ndash;&gt;-->
+        <!--&lt;!&ndash;<welcome-file>/StartPage</welcome-file>&ndash;&gt;-->
+    <!--&lt;!&ndash;</welcome-file-list>&ndash;&gt;-->
+
 </web-app>
